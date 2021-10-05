@@ -1,0 +1,40 @@
+
+.products-container {
+    display:flex;
+    justify-content: center;
+}
+.products-container h3{
+    width: 100%;
+}
+.products-container ul{
+    padding: 0px;
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+}
+.products-container li{
+    padding: 20px;
+}
+.products-container button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 18px;
+    background-color: #4c515e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(152 163 185 / 58%);
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    width: 100%;
+}
+.products-container button:hover{
+   
+    box-shadow: 1px 1px rgb(152 163 185 / 58%);
+    
+}

@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-import { useContext } from "react/cjs/react.development";
 
 export const  CartContext = createContext([])
 
